@@ -1,7 +1,7 @@
 FROM java:8-alpine
 
-ENV JDCMD_VERSION 0.9.1.Final
-ENV JDCMD_SHA256 959bde5ba8d41009dae4c3690ca172697c9c9525eccd21e51a940fa3f13f525f
+ENV JDCMD_VERSION 1.0.0.Final
+ENV JDCMD_SHA256 b87ec7ca0243bab697f2806ffe4e425618860787bf6cff3daff2e44bfd4a266a
 
 RUN set -ex \
  && mkdir -p /tmp/jd-cli \
